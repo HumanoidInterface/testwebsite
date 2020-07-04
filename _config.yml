@@ -1,1 +1,12 @@
 remote_theme: henrythemes/jekyll-starter-theme-v2
+
+nav:
+- { title: 'Accueil',              href: '/' }
+- { title: 'Page de test',              href: '/test' }
+
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
