@@ -1,12 +1,6 @@
 ---
-###
-# note: will result in an all-in-one-file stylesheet e.g. style.css
-#   in _config.yml add:
-#     sass:
-#       sass_dir: css
-#       style:    expanded
+###  turn on preprocessing by starting with required front matter block
 ---
-
 
 @import 'settings';
 
@@ -14,8 +8,10 @@
  * css styles go here
  */
 
-html {
+body {
   font-family: $font-family;
+  background-color: black;
+  color: white;
 }
 
 a, a:visited {
@@ -25,10 +21,6 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
-}
-
-body {
-  background-color: black;
 }
 
 

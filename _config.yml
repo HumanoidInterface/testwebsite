@@ -1,4 +1,8 @@
-remote_theme: henrythemes/jekyll-starter-theme-v2
+###########
+# site.title
+
+title:    "Yuki's Center"
+subtitle: 'yuki ...'
 
 nav:
 - { title: 'Accueil',              href: '/' }
