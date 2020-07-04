@@ -7,10 +7,10 @@
 
 {% include header.html %}
 
-{% include toc.html html=content %}
 
 <div id="content">
-  {{ content }}
+	{% include toc.html html=content %}
+	{{ content }}
 </div>
 
 {% include footer.html %}
