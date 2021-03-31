@@ -4,14 +4,21 @@
 
 @import 'settings';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /*
  * css styles go here
  */
+
+
 
 body {
   font-family: $font-family;
   background-color: black;
   color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a, a:visited {
